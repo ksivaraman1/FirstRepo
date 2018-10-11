@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuite" duration-ms="41" started-at="2018-10-11T10:34:22Z" finished-at="2018-10-11T10:34:22Z">
+    <groups>
+    </groups>
+    <test name="testTest" duration-ms="41" started-at="2018-10-11T10:34:22Z" finished-at="2018-10-11T10:34:22Z">
+      <class name="dataProv.TestNGXMLTest">
+        <test-method status="PASS" signature="test_name(java.lang.String)[pri:0, instance:dataProv.TestNGXMLTest@77f03bb1]" name="test_name" duration-ms="16" started-at="2018-10-11T16:04:22Z" finished-at="2018-10-11T16:04:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siva]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_name -->
+      </class> <!-- dataProv.TestNGXMLTest -->
+    </test> <!-- testTest -->
+  </suite> <!-- testSuite -->
+</testng-results>

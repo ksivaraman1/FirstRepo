@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSuite">
+	<test name="testTest" thread-count="3">
+		<parameter name="name1" value="Siva"></parameter>
+		<groups>
+			<run>
+				<exclude name="setName"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="dataProv.TestNGXMLTest">
+				<methods>
+					<exclude name="test_add"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

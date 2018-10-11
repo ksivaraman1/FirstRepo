@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testSuite]">
+  <parameter name="name1" value="Siva"/>
+  <test thread-count="3" name="testTest">
+    <parameter name="name1" value="Siva"/>
+    <groups>
+      <run>
+        <exclude name="setName"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="dataProv.TestNGXMLTest">
+        <methods>
+          <exclude name="test_add"/>
+        </methods>
+      </class> <!-- dataProv.TestNGXMLTest -->
+    </classes>
+  </test> <!-- testTest -->
+</suite> <!-- Failed suite [testSuite] -->

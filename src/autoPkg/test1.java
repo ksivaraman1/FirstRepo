@@ -37,12 +37,12 @@ public class test1 {
 		prop.load(fis);
 		prop.getProperty("");
 		
-		TakesScreenshot a = (TakesScreenshot) driver;
+		TakesScreenshot aa = (TakesScreenshot) driver;
 		
-		File fl = a.getScreenshotAs(OutputType.FILE);
+		File fl = aa.getScreenshotAs(OutputType.FILE);
 		
 		ITestResult result;
-		result.
+		
 		
 		fis.close();
 		
